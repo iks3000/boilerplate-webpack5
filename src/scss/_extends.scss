@@ -1,0 +1,19 @@
+%btn {
+    display: block;
+    border: none;
+    text-align: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    color: $white;
+}
+
+%btn-text {
+    text-transform: uppercase;
+    border-radius: 18px;
+    padding: 5px 18px;
+    background: $blue;
+    font: 400 14px/26px $secondary-fonts;
+    letter-spacing: 2px;
+    text-align: center;
+}
+

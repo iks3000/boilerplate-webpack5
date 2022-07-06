@@ -1,0 +1,17 @@
+@mixin backImage($image, $width: 100%, $height: 100%) {
+    background: url($image);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: $height;
+    width: $width
+}
+
+@mixin title($fontFamily, $color: $black) {
+    font-family: $fontFamily;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 700;
+    text-align: center;
+    color: $color;
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: $granite-gray;
+}
+
+.image {
+  display: block;
+  margin: 10px auto;
+}
+
+.title {
+  @include title($secondary-fonts, $black);
+  text-align: center;
+  margin: 10px 0;
+}
+
+.block {
+  @include backImage("../assets/1.jpg", 300px, 300px);
+  margin: 10px auto;
+}
+
+.btn {
+  @extend %btn;
+  @extend %btn-text;
+  margin: 0 auto
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0;
+}
